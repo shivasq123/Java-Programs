@@ -4,7 +4,7 @@ class Student extends Thread{
         for(int i = 1; i <= 5; i++) {
             System.out.println("From Student Thread with i = "+ i);
         }
-        System.out.println("Exiting from Student Thread ...");
+        System.out.println("out from the Student Thread ");
     }
 }
 
@@ -13,7 +13,7 @@ class Teacherrr extends Thread{
         for(int i = 1; i <= 5; i++) {
             System.out.println("From Teacher Thread with i = "+ i);
         }
-        System.out.println("Exiting from Teacher Thread ...");
+        System.out.println("out from Teacher Thread");
     }
 }
 
@@ -23,7 +23,7 @@ class Parents implements Runnable{
         for(int i = 1; i <= 5; i++) {
             System.out.println("From Parent Thread with i = "+ i);
         }
-        System.out.println("Exiting from Parents Thread ...");
+        System.out.println("out from Parents Thread");
 
     }}
 
