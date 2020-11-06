@@ -1,0 +1,4 @@
+Name: Varma,Teaches: Oops+Algorithms+Python+c,Branches: CSE.
+Name: Gnanesh,Teaches: Dart+Maths+Statistics+Algorithms+Python,Branches: CSE+IT.
+Name: sharma,Teaches: Networking+Oops+Maths+C/c++,Branches: CSE.
+

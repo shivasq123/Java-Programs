@@ -1,0 +1,6 @@
+Name: Shiva,Year: 2nd,Branch: CSE,Subjects Learned: Oops+Python+c.
+Name: Vamsi,Year: 1st,Branch: CSE,Subjects Learned: Python+Maths.
+Name: Bargav,Year: 2nd,Branch: ECE,Subjects Learned: BE+DE+Signals.
+
+
+
