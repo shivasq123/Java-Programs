@@ -47,7 +47,7 @@ class StudentSelection
         int count=m - Nameinfo.size();
         if(count==0)
         {
-            System.out.println("Reading n Integers Fully!");
+            System.out.println("Read n numbers!");
         }
         else{
             if(count>0)
@@ -55,7 +55,7 @@ class StudentSelection
             else
             {
                 int countx= count * -1;
-                System.out.println("Sry! Not fully read due to Limitation! ("+ countx +" Left to read)");
+                System.out.println("Sorry Not fully read due to Limitation ("+ countx +" Left to read)");
             }
         }
         System.out.println();
@@ -82,7 +82,7 @@ class StudentSelection
                 SelectedStudent.add(Nameinfo.get(i));
             }
         }
-        System.out.println("The Student who learned Oops and Maths are: ");
+        System.out.println("The Student who learned both Oops and Maths are: ");
         for (int i = 0; i < SelectedStudent.size(); i++)
        {
             System.out.println(SelectedStudent.get(i));
@@ -141,7 +141,7 @@ class TeacherSelection
                 System.out.println("Read only "+ NameInfo.size()+" Integers ");
             else {
                 int countx= count * -1;
-                System.out.println("Sry! Not fully read due to Limitation!"+ countx +" Left to read");
+                System.out.println("Sorry Not fully read due to Limitation"+ countx +" Left to read");
             }
         }
         System.out.println();
@@ -169,7 +169,7 @@ class TeacherSelection
             }
         }
         System.out.println();
-        System.out.println("The Teachers who Teaches Oops and Maths are: ");
+        System.out.println("The Teachers who Teaches both Oops and Maths are: ");
         for (int i = 0; i < FacultySelected.size(); i++)
         {
             System.out.println(FacultySelected.get(i));
@@ -181,7 +181,7 @@ public class prgrm3 {
     {
 
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the value of n to select students");
+        System.out.println("Enter the value of n ");
         int n=sc.nextInt();
         System.out.println("Enter the value of m to select Teachers");
         int m=sc.nextInt();
