@@ -66,15 +66,15 @@ class Teacher
 public class prgrm1 {
     public static void main(String[] args)
     {
-        System.out.println("Enter the Names of the Sub-heading sequentially: (Maximum 4 Only):");
+        System.out.println("Enter the Side heading in an order: (Maximum 4 Only):");
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter First Sub-heading:");
+        System.out.println("main side heading:");
         String a1=sc.nextLine();
-        System.out.println("Enter Second Sub-heading:");
+        System.out.println("Second Side heading:");
         String a2=sc.nextLine();
-        System.out.println("Enter Third Sub-heading:");
+        System.out.println("Third Side heading:");
         String a3=sc.nextLine();
-        System.out.println("Enter Fourth Sub-heading:");
+        System.out.println("Fourth Side heading:");
         String a4=sc.nextLine();
         Teacher x=new Teacher();
         x.condition(a1,a2,a3,a4);
